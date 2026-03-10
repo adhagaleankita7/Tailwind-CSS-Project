@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Bliss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-sans">
+    <nav class="bg-gray-900 text-white">
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-xl font-semibold">Hotel Bliss</h1>
+
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="#" class="hover:text-blue-400">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-400">About</a></li>
+          <li>
+            <a href="#amenities" class="hover:text-blue-400">Amenities</a>
+          </li>
+          <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      class="bg-cover bg-center h-screen flex items-center justify-center"
+      style="
+        background-image: url(&quot;https://images.trvl-media.com/lodging/4000000/3010000/3003800/3003784/e02af268.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill&quot;);
+      "
+    >
+      <div class="bg-black/60 text-white text-center p-10 rounded-lg max-w-2xl">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Welcome to Hotel Bliss
+        </h1>
+
+        <p class="mb-6 text-lg">
+          Experience luxury and comfort like never before
+        </p>
+
+        <button class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded">
+          Book Now
+        </button>
+      </div>
+    </section>
+    <section id="about" class="py-16 bg-gray-100">
+      <div
+        class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center"
+      >
+        <div>
+          <h2 class="text-3xl font-bold mb-4">About Us</h2>
+
+          <p class="text-gray-600">
+            Hotel Bliss offers an exquisite escape from the ordinary. Nestled in
+            a serene environment, we combine comfort, elegance, and premium
+            service to create unforgettable stays for our guests.
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="amenities" class="py-16">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-12">Amenities</h2>
+
+        <div class="grid md:grid-cols-3 gap-10">
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Free Wi-Fi</h3>
+            <p class="text-gray-600">
+              Stay connected throughout your stay with our complimentary
+              high-speed internet.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold mb-2">In-Room Dining</h3>
+            <p class="text-gray-600">
+              Enjoy gourmet meals delivered straight to your room, any time of
+              day.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold mb-2">Pool & Spa</h3>
+            <p class="text-gray-600">
+              Relax and unwind at our full-service spa or take a dip in our
+              rooftop pool.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-16 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-10">Contact Us</h2>
+
+        <form class="space-y-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="border p-3 rounded w-full"
+            />
+
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="border p-3 rounded w-full"
+            />
+          </div>
+
+          <textarea
+            placeholder="Your Message"
+            rows="5"
+            class="border p-3 rounded w-full"
+          ></textarea>
+
+          <button
+            class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-gray-800 text-white text-center py-6">
+      <p>© 2025 Hotel Bliss. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
